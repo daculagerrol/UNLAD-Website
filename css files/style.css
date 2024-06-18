@@ -291,8 +291,15 @@ footer {
     width: 80%;
 }
 
-
-
+.certificate {
+    height: 720px;
+    width: auto;
+    margin: 0 15px 0;
+    padding: 15px;
+}
+.footer-logo {
+    height: 100px;
+}
 
 
 @media only screen and (max-width: 1280px) {
@@ -340,7 +347,19 @@ footer {
     .custom-list {
         padding: 20%;
     }
+    .certificate {
+        height: 620px;
+    }
+    .footer-logo {
+        height: 75px;
+    }
+    
 }
+@media only screen and (max-width: 990px) {
+    
+
+}
+
 
 @media only screen and (max-width: 800px) {
     .menu-bar {
@@ -375,6 +394,17 @@ footer {
     }
     .custom-list {
         padding: 30%;
+    }
+    .certificate {
+        height: 460px
+    }
+    .cert-title {
+        font-size: 20px;
+        display: block;
+        justify-content: center;
+    }
+    .footer-logo {
+        height: 100px;
     }
 }
 
