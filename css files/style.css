@@ -196,6 +196,37 @@ body {
 }
 
 
+.popup {
+    background-color: #ddd;
+    width: 450px;
+    padding: 30px 40px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    border-radius: 8px;
+    z-index: 1000;
+    transition: 0.3s all;
+    display: none;
+}
+.popup button {
+    display: block;
+    margin: 0 0 20px auto;
+    background-color: transparent;
+    font-size: 30px;
+    color: #000;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.popup p {
+    font-size: 14px;
+    text-align: justify;
+    margin: 20px 0;
+}
+.popup h3 {
+    text-align: center;
+}
 
 
 
@@ -204,7 +235,7 @@ body {
     margin: 50px auto;
     position: relative;
     width: 1200px;
-    height: 695px;
+    height: 710px;
     border: 3px solid #000;
     border-radius: 5px;
     box-shadow: 0 0 8px 2px rgba(0,0,0,0.2);
@@ -405,6 +436,13 @@ footer {
     }
     .footer-logo {
         height: 100px;
+    }
+    .popup {
+        width: 300px;
+        padding: 20px 30px;
+    }
+    .popup p {
+        font-size: 12px;
     }
 }
 
